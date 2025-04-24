@@ -1,0 +1,18 @@
+[project]
+name = "qa-challenges-2025"
+version = "0.1.0"
+description = "A project to generate pyramid patterns and test them."
+authors = [
+    {name = "Simon Poon",email = "kalunpoon926@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest (==3.13)",
+    "pytest-html (==4.1.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
